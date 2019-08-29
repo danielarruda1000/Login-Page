@@ -1,0 +1,28 @@
+{
+  "name": "Login-Page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielarruda1000/Login-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielarruda1000/Login-Page/issues"
+  },
+  "homepage": "https://github.com/danielarruda1000/Login-Page#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "create-react-app": "^3.1.1",
+    "express": "^4.17.1",
+    "frontend": "^2.0.0-alpha.4",
+    "mongoose": "^5.6.11"
+  }
+}
