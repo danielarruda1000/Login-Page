@@ -5,6 +5,16 @@
     align-items: center;
 }
 
+.loginBox{
+    background-color: tomato;
+    width: 350px;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0,0, 0.2);
+}
 .login-container form{
     width: 100%;
     max-width: 300px;
@@ -20,10 +30,12 @@
     padding: 0 20px;
     font-size: 16px;
     color: #666;
+    border-radius: 15px;
 }
 
 .login-container form input::placeholder{
     color: #999;
+    
 }
 
 .login-container form button{
@@ -35,4 +47,17 @@
     color: #FFF;
     cursor: pointer;
     font-weight: bold;
+    border-radius: 15px;
+    font-weight: 300;
+}
+
+label{
+    font-size: 1.3em;
+    font-weight: 100;
+}
+.alert{
+    height: 50px;
+}
+small{
+   font-size: 0.8em;
 }
